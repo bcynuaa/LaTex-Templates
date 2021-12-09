@@ -1,0 +1,69 @@
+\documentclass[12pt, a4paper, oneside]{ctexbook}
+\CTEXsetup[format={\Large\bfseries}]{section}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{setspace}
+\geometry{a4paper,scale=0.8}
+\setcounter{secnumdepth}{4}
+%%  文索引文献上标
+\makeatletter
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+%\renewcommand\thetable{\alph{table}}
+%%  上述部分式导入一部分宏包，请勿乱动；如有需要可自行添加宏包\usepackage
+
+
+\hypersetup{hidelinks} %%  目录跳转超链接红框隐藏
+\linespread{1.5} %%  全文行间距
+
+
+%%  开始全文
+\begin{document}
+
+%% 导入封面：content文件夹下的cover.tex文件
+\include{content/cover}
+
+%% 设置目录：自动生成
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents  %%  目录设置
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%%  开始正篇
+
+%% 将content中的各个分开写好的章节全部用include命令加到正文重
+
+
+%%  请打开content/帮你上手可删，我写了一些latex基本操作
+
+\include{content/帮你上手可删}  %%  书写的时候请直接删除/注释这一行
+
+\include{content/CH1} %%  飞机设计要求
+\include{content/CH2} %%  飞机总体布局
+\include{content/CH3} %%  发动机选择
+\include{content/CH4} %%  主要参数确定
+\include{content/CH5} %%  机身设计
+\include{content/CH6} %%  机翼设计
+\include{content/CH7} %%  尾翼设计
+\include{content/CH8} %%  发动机短舱设计
+\include{content/CH9} %%  起落架布置
+\include{content/CH10} %%  飞机三视图
+\include{content/CH11} %%  重量特性
+\include{content/CH12} %%  气动特性
+\include{content/CH13} %%  性能特性
+\include{content/CH14} %%  个人总结
+
+\include{content/Refrence} %%  参考文献
+
+\end{document}

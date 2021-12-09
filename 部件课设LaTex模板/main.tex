@@ -1,0 +1,49 @@
+\documentclass[12pt, a4paper, oneside]{ctexbook}
+\CTEXsetup[format={\Large\bfseries}]{section}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{setspace}
+\geometry{a4paper,scale=0.8}
+\setcounter{secnumdepth}{4}
+\makeatletter
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+%\renewcommand\thetable{\alph{table}}
+
+
+\hypersetup{hidelinks}
+\linespread{1.5} %%  全文行间距
+
+\begin{document}
+
+%\maketitle
+\include{content/cover}
+
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents  %%  目录设置
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%% 正文开始
+\include{content/CH1} %%  设计要求
+\include{content/CH2} %%  初步方案确定
+\include{content/CH3} %%  载荷计算和设计计算
+\include{content/CH4} %%  质量质心计算及配重设计
+\include{content/CH5} %%  装配工艺流程
+\include{content/CH6} %%  个人设计总结
+
+\include{content/Refrence} %%  参考文献
+
+\end{document}

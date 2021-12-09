@@ -1,0 +1,66 @@
+\documentclass[12pt, a4paper, oneside]{ctexbook}
+\CTEXsetup[format={\Large\bfseries}]{section}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{cite}
+\usepackage{setspace}
+\geometry{a4paper,scale=0.8}
+\setcounter{secnumdepth}{4}
+%%  文索引文献上标
+\makeatletter
+\def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
+\makeatother
+%\renewcommand\thetable{\alph{table}}
+%%  上述部分式导入一部分宏包，请勿乱动；如有需要可自行添加宏包\usepackage
+
+
+\hypersetup{hidelinks} %%  目录跳转超链接红框隐藏
+\linespread{1.5} %%  全文行间距
+
+
+%%  开始全文
+\begin{document}
+
+%% 导入封面：content文件夹下的cover.tex文件
+\include{content/cover}
+
+%% 设置目录：自动生成
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents  %%  目录设置
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+%%  开始正篇
+
+%% 将content中的各个分开写好的章节全部用include命令加到正文重
+
+
+%%  请打开content/帮你上手可删，我写了一些latex基本操作
+
+\include{content/帮你上手可删}  %%  书写的时候请直接删除/注释这一行
+
+\include{content/CH1}  %%  设计任务书
+\include{content/CH2}  %%  传动方案的拟定
+\include{content/CH3}  %%  电动机的选择及传动装置的运动和动力参数计算
+\include{content/CH4}  %%  传动零件的设计计算
+\include{content/CH5}  %%  轴的计算
+
+\include{content/CH6}  %%  键连接的选择和计算
+\include{content/CH7}  %%  滚动轴承的选择和计算
+\include{content/CH8}  %%  联轴器的选择
+\include{content/CH9}  %%  润滑与密封的选择、润滑剂牌号和装油量
+\include{content/CH10}  %%  其他技术说明
+
+\include{content/Refrence}  %%  参考文献
+
+\end{document}
