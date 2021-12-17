@@ -1,0 +1,27 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}帮你上手可删}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}这是章节内一级标题}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}这是章节内二级标题}{1}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}这是章节内三级标题}{1}{subsubsection.1.1.1.1}%
+\contentsline {section}{\numberline {1.2}列表}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}有序列表}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}无序列表}{1}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}公式}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}行内公式}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}行间公式}{2}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}常用符号}{2}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}文献索引}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}插入图片}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}表格}{4}{section.1.6}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}设计任务书}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}传动方案的拟定}{6}{chapter.3}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}电动机的选择及传动装置的运动和动力参数计算}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}传动零件的设计计算}{8}{chapter.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}轴的计算}{9}{chapter.6}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}键连接的选择和计算}{10}{chapter.7}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}滚动轴承的选择和计算}{11}{chapter.8}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}联轴器的选择}{12}{chapter.9}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}润滑与密封的选择、润滑剂牌号和装油量}{13}{chapter.10}%
+\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}其他技术说明}{14}{chapter.11}%
+\contentsline {chapter}{参考文献}{15}{chapter*.5}%
+\contentsline {section}{\numberline {A}绘图程序代码}{16}{section.Alph0.1}%
+\contentsline {subsection}{\numberline {A.1}matlab绘制程序}{16}{subsection.Alph0.1.1}%

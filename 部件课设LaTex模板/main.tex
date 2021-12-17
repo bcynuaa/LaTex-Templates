@@ -11,8 +11,38 @@
 \usepackage{color}
 \usepackage{cite}
 \usepackage{setspace}
+\usepackage{appendix}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{ 
+  backgroundcolor=\color{white},   % 选择代码背景，必须加上\ usepackage {color}或\ usepackage {xcolor}.
+  basicstyle=\footnotesize,        % 设置代码字号.
+  breakatwhitespace=false,         % 设置是否当且仅当在空白处自动中断.
+  breaklines=true,                 % 设置自动断行.
+  captionpos=b,                    % 设置标题位置.
+  commentstyle=\color{green},      % 设置注释格式
+  deletekeywords={...},            % 是否删除给定语言的关键词.
+  extendedchars=true,              % 是否允许使用非ASCII字符; 仅适用于8位编码，不适用于UTF-8. 
+  frame=single,	                   % 给代码区添加边框.
+  keepspaces=true,                 % 保留空格（useful for keeping indentation of code (possibly needs columns=flexible).
+  keywordstyle=\color{blue},       % 关键字显示风格.
+  language=matlab,                 % 使用的语言.
+  morekeywords={*,...},            % 是否需要添加其他的关键词.
+  numbers=left,                    % 给代码添加行号，可取值none, left, right.
+  numbersep=5pt,                   % 设置行号与代码之间的间隔
+  numberstyle=\tiny\color{gray}, % 行号的字号和颜色
+  rulecolor=\color{black},         % 边框颜色，如果没有设置，框架颜色可以在非黑色文本中的换行符上更改（例如 text (e.g. comments (green here))）
+  showspaces=false,                % 显示每个地方添加特定下划线的空格; 覆盖了'showtringspaces'
+  showstringspaces=false,          % 仅在字符串中允许空格
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % 将默认tab设置为2个空格
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
 \geometry{a4paper,scale=0.8}
-\setcounter{secnumdepth}{4}
+\setcounter{secnumdepth}{4}  %%  设置标题级别深度
+\setcounter{tocdepth}{3}  %%  设置目录深度
 \makeatletter
 \def\@cite#1#2{\textsuperscript{[{#1\if@tempswa , #2\fi}]}}
 \makeatother
@@ -45,5 +75,6 @@
 \include{content/CH6} %%  个人设计总结
 
 \include{content/Refrence} %%  参考文献
+\include{content/Appendix}  %%  附录
 
 \end{document}
